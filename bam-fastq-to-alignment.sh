@@ -3,7 +3,7 @@
 set -euo pipefail
 
 ### ========= CONFIG (EDIT ME) ========= ###
-BAM_DIR="/home/sana/Documents/GeneticCodon/collaborations/Medullablastoma_project/medullablastoma/sc-RNAseq/BAM"
+BAM_DIR="~/sc-RNAseq/BAM" # change the path accordingly
 BAMTOFASTQ="${BAM_DIR}/bamtofastq_linux"        # downloaded binary
 FASTQ_DIR="${BAM_DIR}/../fastqs"                # per-sample FASTQs
 STAR_INDEX="/home/sana/genome_reference/STAR_index"
